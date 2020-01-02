@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.memo.dao.SmpPlaceDao">
+
+    <resultMap type="SmpPlace" id="SmpPlaceResult">
+        <result property="id" column="id"/>
+        <result property="pla" column="pla"/>
+    </resultMap>
+
+    <select id="getByStr" parameterType="Map" resultMap="SmpPlaceResult">
+        select * from t_place WHERE instr(#{str},pla)>0
+    </select>
+
+</mapper>

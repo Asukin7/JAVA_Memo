@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>备忘录</title>
+    <title>日程事务</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <script src="${pageContext.request.contextPath}/static/jquery/3.4.1/jquery-3.4.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/static/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
@@ -19,7 +19,7 @@
 
 <div id="list">
     <nav class="navbar navbar-dark bg-dark text-light">
-        <a class="navbar-brand">备忘录</a>
+        <a class="navbar-brand">日程事务</a>
         <div class="form-inline">
             <input id="searchInput" class="form-control mr-sm-2" placeholder="请输入内容..." @keyup.enter="search()">
             <button class="btn btn-outline-success my-2 my-sm-0" @click="search()">搜素</button>
@@ -30,7 +30,7 @@
         <ul class="list-group shadow">
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-8"><h4 class="font-weight-light" style="margin: 4px">备忘录</h4></div>
+                    <div class="col-8"><h4 class="font-weight-light" style="margin: 4px">日程事务</h4></div>
                     <div class="col-4 text-right">
                         <button class="btn btn-outline-primary" style="margin-left: 6px" data-toggle="modal" data-target="#addOrUpdateModal" @click="openAddOrUpdateModal(0)">新建</button>
                     </div>
@@ -85,7 +85,7 @@
                 <!-- 模态框主体 -->
                 <div class="modal-body">
                     <form>
-                        <label class="col-form-label">备忘内容：</label>
+                        <label class="col-form-label">事务内容：</label>
                         <textarea id="content" class="form-control"></textarea>
                         <label class="col-form-label">是否提醒：</label>
                         <div class="form-group input-group mb-3">

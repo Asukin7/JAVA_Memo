@@ -30,6 +30,11 @@ public class SmpMemoController {
         //查询
         List<SmpMemo> smpMemoList = smpMemoService.list(map);
         Long total = smpMemoService.getTotal(map);
+        //更新为已提醒
+//        for (SmpMemo smpMemo : smpMemoList) {
+//            smpMemo.setIsRemind(0);
+//            smpMemoService.update(smpMemo);
+//        }
         //将数据写入response
         Map<String, Object> result = new HashMap<String, Object>();
         result.put("rows", smpMemoList);
