@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e70bb6f0-eba0-497b-aa64-b9f57b88d0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/memo/controller/SmpMemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/memo/controller/SmpMemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Memo/WEB-INF/classes/com/memo/controller/SmpMemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Memo/WEB-INF/classes/com/memo/controller/SmpMemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Memo/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Memo/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/memo/controller/SmpMemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/memo/controller/SmpMemoController.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +44,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1VYhOj2l8hKWo3jitWjpug8OyAQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HumanResources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -72,21 +70,8 @@
       <recent name="D:\AN\BianCheng\Idea\Memo\src\main\resource" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Memo/" />
+    <configuration name="Tomcat_memo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Memo:war exploded">
@@ -159,6 +144,28 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,6 +188,7 @@
       <workItem from="1577853303551" duration="9186000" />
       <workItem from="1577921825258" duration="1156000" />
       <workItem from="1577940261257" duration="4134000" />
+      <workItem from="1578656805248" duration="400000" />
     </task>
     <servers />
   </component>
@@ -199,5 +207,75 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578657144215">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578657144215" />
+    <state x="880" y="292" key="CommitChangelistDialog2" timestamp="1578657209572">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="880" y="292" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1578657209572" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1578656825145">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1578656825145" />
+    <state width="1741" height="393" key="GridCell.Tab.0.bottom" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.0.center" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.0.left" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.0.right" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.1.bottom" timestamp="1578657048265">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048265" />
+    <state width="1741" height="393" key="GridCell.Tab.1.center" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.1.left" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.1.right" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.2.bottom" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.2.center" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.2.left" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state width="1741" height="393" key="GridCell.Tab.2.right" timestamp="1578657048264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1741" height="393" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578657048264" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1578656988939">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1578656988939" />
   </component>
 </project>
